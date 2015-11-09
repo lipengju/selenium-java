@@ -1,4 +1,4 @@
-package info.itest.www;
+package TestCase;
 
 import static org.junit.Assert.*;
 

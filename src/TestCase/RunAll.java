@@ -1,9 +1,10 @@
-package info.itest.www;
+package TestCase;
 
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-import info.itest.www.*;
+
+import TestCase.*;
 
 
 @RunWith(Suite.class)

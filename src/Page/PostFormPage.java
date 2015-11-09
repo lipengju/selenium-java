@@ -1,4 +1,4 @@
-package info.itest.www.pages;
+package Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

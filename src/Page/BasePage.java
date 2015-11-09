@@ -1,16 +1,16 @@
-package info.itest.www.pages;
+package Page;
 
 import org.openqa.selenium.*;
 
 /*
- * 所有页面的基类
+ * 页面基类
  * */
 public class BasePage
 {
 	protected final WebDriver driver;
 	protected  String url;
 	
-	//构造函数
+	
 	public BasePage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -21,9 +21,13 @@ public class BasePage
 		this.driver.get(this.url);
 	}
 	
-	//遵守不要暴露底层的代码给用户
 	public String currentUrl()
 	{
 		return this.driver.getCurrentUrl();
+	}
+	
+	public  void waitTime() throws InterruptedException
+	{
+		Thread.sleep(2000);
 	}
 }

@@ -1,10 +1,10 @@
-package info.itest.www.pages;
+package Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import info.itest.www.pages.*;
+import Page.*;
 
 public class HomePage  extends BasePage
 {

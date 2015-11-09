@@ -1,4 +1,4 @@
-package info.itest.www;
+package TestCase;
 
 import static org.junit.Assert.*;
 
@@ -7,16 +7,17 @@ import javax.management.DescriptorKey;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import info.itest.www.pages.*;
+
 
 
 import org.openqa.selenium.chrome.*;
+
+import Page.*;
 
 public class TestCreatePost
 {
